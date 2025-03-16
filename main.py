@@ -9,7 +9,8 @@ from webscraper import run
 from typing import Union, List
 from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove
 
-updater = Updater("5912217878:AAGg7z8mSy953dJeIa5pi_QLs1oa4QQNYjI",
+Telegrambottoken = "" # Enter here telegram bot token
+updater = Updater(Telegrambottoken,
                   use_context=True)
 
 
